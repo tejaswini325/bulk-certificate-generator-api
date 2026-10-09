@@ -1,0 +1,27 @@
+# Environments / secrets
+.venv/
+venv/
+env/
+.env
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases and generated personal data
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+storage/*
+!storage/.gitkeep
+certificates/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
